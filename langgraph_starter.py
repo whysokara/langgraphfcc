@@ -1,0 +1,9 @@
+from langgraph.graph import StateGraph, START, END
+from typing import TypedDict, Literal
+from pydantic import BaseModel
+from langchain_groq import ChatGroq
+from dotenv import load_dotenv
+
+load_dotenv()
+
+llm = ChatGroq(model="llama-3.1-8b-instant")
