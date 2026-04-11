@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, START, END
-from typing import TypedDict, Literal
+from typing import TypedDict, Literal, Optional
 from pydantic import BaseModel
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
