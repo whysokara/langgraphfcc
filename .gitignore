@@ -1,3 +1,7 @@
 .venv
 api.txt
 .env
+Books
+*.pdf
+*.csv
+*.txt
